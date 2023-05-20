@@ -17,7 +17,7 @@ This is somewhere around the 20th rewrite.
 I love C. I hate most programming culture. I intentionally ignored worrying about code smells and rough around the edges syntax (and even whitespacing). I hyperfocused on the language agnostic ideas in order to make the ecs work as plainly as I could. My reason for this, is all of the "proper" ways of writing high quality C code I could go back and do, I just don't care. Learning how to make and use the ECS as well as C's functionality was more important to me than code prettiness.
 
 ### One last thing:
-I love C, but it wasn't good enough for some key things I wanted. I wanted to be able to more trivially and easily use my ECS through metaprogramming and C's macro functions, while very powerful, were lacking in certain situations. So I wrote an entire metaprogramming preprocessor that transpiles portions of my non-vanilla C code into vanilla C. I wanted this for more than just to make the ECS easier to use, but also for many reasons relating to C and it's age. The preprocessor's syntax is loosely based off of OpenMP where you can type something along the lines of :
+I love C, but it wasn't good enough for some key things I wanted. I wanted to be able to more trivially and easily use my ECS through metaprogramming. C's macro functions, while very powerful, were lacking in certain situations. So I wrote an entire metaprogramming preprocessor that transpiles portions of my non-vanilla C code into vanilla C. I wanted this for more than just to make the ECS easier to use, but also for many reasons relating to C and it's age. The preprocessor's syntax is loosely based off of OpenMP where you can type something along the lines of :
 ```c
 #pragma omp parallel for
 {
