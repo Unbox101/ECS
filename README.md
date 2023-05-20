@@ -5,12 +5,13 @@ I come from a non professional Luau Roblox background.
 
 I started programming in C for the first time around late July of 2022.
 
-I had used many ECS libraries in roblox for around 1.5-ish years prior to starting C and was infatuated with them. It's a shame most of the ones I used were terribly complex. But a friend I met had showed me their simple lua ecs and I was astonished with how small it was. It cheated quite a bit on the performance front by essentially storing a pointer inside every component, but that made the ecs very small and easy to understand front to back. When I started in C, I wanted to recreate my friends ecs in C to better learn C. I completed it in early October of 2022. With a basic understanding of C I wanted to jump into making an ecs as good as I possibly could. I had used unity in the past and kept up closely with their work on DOTS and knew about the concept of archetypal ecs's while working in roblox. An Archetypal ECS was the one I knew I needed to make.
+I had used many ECS libraries in roblox for around 1.5-ish years prior to starting C and was infatuated with them. It's a shame most of the ones I used were terribly complex. But a friend I met had showed me their simple lua ecs and I was astonished with how small it was. It cheated quite a bit on the performance front by essentially storing a pointer inside every component, but that made the ecs very small and easy to understand front to back. When I started in C, I wanted to recreate my friends ecs in C to better learn C. I also started working on a game for it the moment the ECS was done. I used raylib for rendering and had made collision, user input, multiple jumping, and very simple map loading. I stopped work on it though, in early October of 2022. With a basic understanding of C I wanted to jump into making an ecs as good as I possibly could. I had used unity in the past and kept up closely with their work on DOTS and knew about the concept of archetypal ecs's while working in roblox. An Archetypal ECS was the one I knew I needed to make.
 
 I started writing this ECS sometime around October of 2022.
 
 This is somewhere around the 20th rewrite.
 
+(Small aside: The game that I was developing in my rudimentary C ecs was that of a 3D hide and seek game. It is loosely based off of some of the Roblox hide and seek games I played as a kid. I talk about wanting to make this game again but in my more complete ECS later in this readme.)
 
 ### Things to note when looking at this codebase:
 I love C. I hate most programming culture. I intentionally ignored worrying about code smells and rough around the edges syntax. I hyperfocused on the language agnostic ideas in order to make the ecs work as plainly as I could. My reason for this, is all of the "proper" ways of writing high quality C code I could go back and do, I just don't care. Learning how to make and use the ECS as well as C's functionality was more important to me than code prettiness.
