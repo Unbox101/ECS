@@ -28,6 +28,8 @@ OpenMP makes use of custom pragmas that perform different actions in the followi
 
 Oh, also one final last thing. There are certain areas of the ecs that I simply haven't optimized/took the naïve route for the sole reason that they are well contained and I will fix them later. I am currently developing a small 3D hide and seek game in order to test the ECS. During and/or after the development of this game, I will finish making the optimizations to all of the known points that need them. This project has a lot of comments scattered about, some of which act as reminders of these points that I must revisit.
 
+Ok, I swear this is the last thing. I did not clean up this project at all. I left all my nonsense and useless comments and didn't reformat anything other than some of the includes at the tops of the files to make it work in this small sort of showcase-like project. I find being truthful about how I work and my mindset as I work very important and my comments are a portrayal of that. This is a solo project. I am well aware of working in teams and how important styleguides are for ease of understanding during the development of the software as well as how important they are for onboarding and such. Make no mistake that I am capable and have in the past worked under those conditions. I only didn't for this project to increase iteration/development speed.
+
 ## Build file (approximately)
 ```bat
 call gcc Main2.c -o ShowcaseECS.exe -Wall -O2 -Wno-unknown-pragmas
