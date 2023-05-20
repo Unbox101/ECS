@@ -30,8 +30,6 @@ Oh, also one final last thing. There are certain areas of the ecs that I simply 
 
 ## Build file (approximately)
 ```bat
-cd /d %proj_path%
-
 call gcc Main2.c -o ShowcaseECS.exe -Wall -O2 -Wno-unknown-pragmas
 
 call "ShowcaseECS.exe"
