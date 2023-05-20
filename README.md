@@ -11,7 +11,7 @@ I started writing this ECS sometime around October of 2022.
 
 This is somewhere around the 20th rewrite.
 
-(Small aside: The game that I was developing in my rudimentary C ecs was that of a 3D hide and seek game. It is loosely based off of some of the Roblox hide and seek games I played as a kid. I talk about wanting to make this game again but in my more complete ECS later in this readme.)
+(Small aside: The game that I was developing in my rudimentary C ecs was that of a 3D hide and seek game. It is loosely based off of some of the Roblox hide and seek games I played as a kid. I talk about wanting to make this game again but using my more complete ECS later in this readme.)
 
 ### Things to note when looking at this codebase:
 I love C. I hate most programming culture. I intentionally ignored worrying about code smells and rough around the edges syntax. I hyperfocused on the language agnostic ideas in order to make the ecs work as plainly as I could. My reason for this, is all of the "proper" ways of writing high quality C code I could go back and do, I just don't care. Learning how to make and use the ECS as well as C's functionality was more important to me than code prettiness.
