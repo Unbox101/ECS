@@ -24,7 +24,7 @@ I love C, but it wasn't good enough for some key things I wanted. I wanted to be
 	//insert normal C forloop here
 }
 ```
-OpenMP makes use of custom pragmas that perform different actions in the following code block. Mine works almost exactly the same, except I was very lazy while writing the preprocessor, so a code block is instead define by the normal OpemMP-like starting pragma and then at the end of the block, another "ending" pragma is required. If it is the end of that file, then the ending pragma is implied. Interestingly this makes my preprocessor somewhat more similar to the Fortran version of OpenMP than the C version. I thought that was neat.
+OpenMP makes use of custom pragmas that perform different actions in the following code block. Mine works almost exactly the same, except I was very lazy while writing the preprocessor, so a code block is instead defined by the normal OpemMP-like starting pragma and then at the end of the block, another "ending" pragma is required. If it is the end of that file, then the ending pragma is implied. Interestingly this makes my preprocessor somewhat more similar to the Fortran version of OpenMP than the C version. I thought that was neat.
 
 Oh, also one final last thing. There are certain areas of the ecs that I simply haven't optimized/took the naïve route for the sole reason that they are well contained and I will fix them later. I am currently developing a small 3D hide and seek game in order to test the ECS. During and/or after the development of this game, I will finish making the optimizations to all of the known points that need them. This project has a lot of comments scattered about, some of which act as reminders of these points that I must revisit.
 
