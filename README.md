@@ -32,6 +32,10 @@ Ok, I swear this is the last thing. I did not clean up this project at all. I le
 
 I lied this is the final thing. There are some areas of this ecs that I would describe as "loosely tested". These areas are areas that I either wrote very fast because I had written them 100 times in prior iterations, or they are areas that I half copied from prior iterations. I am aware of these areas, and will test them as I make my game. It may sound crazy, but I know for a fact I will be able to get away with that because I have written this so many times. I will not forget these areas and will test them to make sure they work more thoroughly later.
 
+## About header files:
+![image](https://github.com/Unbox101/ECS/assets/45373406/070da2a6-e30e-484b-8b23-3de6000e0346)
+
+
 ## Build file (approximately)
 ```bat
 call gcc Main2.c -o ShowcaseECS.exe -Wall -O2 -Wno-unknown-pragmas
